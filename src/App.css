@@ -67,6 +67,20 @@ form button:hover {
     list-style: none;
 }
 
+.todo-list {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.todo-list::-webkit-scrollbar {
+    display: none;
+}
+
+.todo-list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 .todo {
     margin: 0.5rem;
     background: white;
